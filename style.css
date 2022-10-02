@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  height: 38px;
+  width: 120px;
+}
+
+.main {
+  position: absolute;
+  left: 9%;
+  opacity: 0.5;
+  background-size: 40%;
+  top: 500px;
+}
+body {
+  background-color: #1c1913;
+}
+
+.list {
+  position: relative;
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.list-item1 {
+  position: absolute;
+  top: 45px;
+  left: 660px;
+  color: #d5cebc;
+}
+.list-item2 {
+  position: absolute;
+  top: 45px;
+  left: 750px;
+  color: rgb(160, 155, 155);
+}
+.list-item3 {
+  position: absolute;
+  top: 45px;
+  right: 610px;
+  color: rgb(160, 155, 155);
+}
+.list-item4 {
+  position: absolute;
+  right: 390px;
+  top: 45px;
+  color: rgb(160, 155, 155);
+}
+.button-small {
+  position: absolute;
+  top: 30px;
+  right: 170px;
+  border-bottom-width: 3px;
+  border-radius: 0.6em;
+  font-size: 17px;
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+
+  font-weight: 650;
+  color: #9f8c57;
+  border-color: #9f8c57;
+}
+
+.hero {
+  position: relative;
+}
+.hero-heading {
+  position: relative;
+  top: 190px;
+  left: 190px;
+  font-size: 75px;
+  width: 600px;
+  font-weight: 1300;
+  color: #d5cebc;
+}
+.paragraph {
+  position: absolute;
+  right: 190px;
+  width: 430px;
+  font-size: 23px;
+  top: 210px;
+  color: rgb(160, 155, 155);
+}
+
+/* .bottom {
+  background-image: url("assets/Law.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  top: 120px;
+  position: relative;
+
+  
+  background-size: 100% 65%;
+  top: 290px;
+} */
+
+.image {
+  position: absolute;
+  top: 450px;
+}
